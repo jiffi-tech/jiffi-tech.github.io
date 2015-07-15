@@ -30,13 +30,8 @@ body{
 	background:#FF5454;
 }
 
-#section-1 {
- transform: translate3d( -10px, 0, 0 ); /* X, Y, Z */
- -webkit-transform: translate3d( -10px, 0, 0 );
-}
 
 .wrap{
-	width:80%;
     margin:0 auto;
     padding-top: 20px;
     position: relative;
@@ -295,9 +290,6 @@ body{
 }
 /*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
 @media only screen and (max-width:800px){
-	.wrap{
-		width:95%;
-	}
 	.col_1_of_3{ 
 		margin: 1% 0 1% 0%;
 	}
@@ -694,10 +686,6 @@ img.logo-footer {
 	}
 }
 @media (max-width:500px){
-    
-	.wrap{
-		width:95%;
-	}
     .logo{
 		float:none;
 		margin:0 auto;
@@ -738,9 +726,6 @@ img.logo-footer {
 	}
 }
 @media (max-width:320px){
-	.wrap{
-		width:95%;
-	}
 	.cssmenu > ul > li > a{
 		padding:12px 2px 12px 2px;
 	}
