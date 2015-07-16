@@ -27,7 +27,7 @@ html {
 
 body{
 	font-family: 'Lato', sans-serif;
-	background:#FF5454;
+	background:#FFF;
 }
 
 
@@ -45,6 +45,7 @@ body{
 	width: 100%;
 	clear: both;
     position: relative;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 .logo{
 	float:left;
@@ -159,7 +160,7 @@ body{
 .cssmenu > ul > li > a {
 	color:white;
 	display: block;
-	padding:1% 1% 1% 50px;
+	padding:12px 12px;
 	border-bottom:2px solid rgba(255, 255, 255, 0);
 	font-size: 1.2rem;
     font-weight: bold;
@@ -177,11 +178,11 @@ body{
 .img-banner-info{
 	margin-top:25px;
     margin-right: 280px;
+	color: rgba(0, 0, 0, 0.6);
 }
 .img-banner-info h1{
 	font-size:4.5rem;
     font-weight: 700;
-	color: white;
 }
 .img-banner-info h1 span{
 	font-weight:bold;
@@ -190,7 +191,6 @@ body{
 .img-banner-info h3{
 	font-size:2.25rem;
     font-weight: 300;
-	color:#FFF;
 	line-height:1.3em;
 	margin:60px 0;
 }
@@ -242,13 +242,19 @@ body{
 	text-align:center;
 }
 .features p{
-	color:#3a3a3a;
+	color:rgba(0, 0, 0, 0.6);
 	font-size:22px;
 	line-height:1.5em;
 	text-align:center;
 	width:74%;
 	margin:0 auto;
 }
+.features p > a{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bold;
+}
+
+
 /*  GRID OF THREE   ============================================================================= */
 .section {
 	clear: both;
@@ -400,7 +406,6 @@ img.screen {
 
 .social {
 	display:inline-block;
-	margin-left:20px;
 	vertical-align:middle;
 }
 .social a {
@@ -438,6 +443,7 @@ img.screen {
 /*--footer--*/
 .footer{
 	padding:5% 0 0% 0;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 img.logo-footer {
 	display: block;
@@ -465,7 +471,7 @@ img.logo-footer {
 	color:#fff;
 }
 .footermenu ul li a:hover {
-	color:#C10B0B;
+	color:#FFF;
 }
 
 .footer-top h3{
@@ -617,7 +623,7 @@ img.logo-footer {
 		font-size:1.571rem;
 	}
 	.features p{
-		width:100%;
+		width:90%;
 		font-size: 18px;
 	}
 	.app-btn a{
@@ -674,6 +680,7 @@ img.logo-footer {
 	}
 	.features p{
 		font-size:16px;
+		width: 80%;
 	}
 	.content-middle{
 		background-size:125%;
@@ -689,6 +696,7 @@ img.logo-footer {
     .logo{
 		float:none;
 		margin:0 auto;
+		padding-bottom: 10px;
 	}
 	.cssmenu #nav{
 		display: none;
@@ -758,7 +766,3 @@ img.logo-footer {
 		font-size: 13px;
 	}
 }
-
-
-
-
