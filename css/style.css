@@ -33,8 +33,8 @@ body{
 
 .wrap{
     margin:0 auto;
-    padding-top: 20px;
-	padding-bottom: 10px;
+    padding-top: 15px;
+	margin-bottom: 5px;
     position: relative;
 	-moz-transition:all .2s linear;
 	-webkit-transition:all .2s linear; 
@@ -48,8 +48,19 @@ body{
     position: relative;
 	background-color: rgba(0, 0, 0, 0.6);
 }
+img.logo {
+	width: 70px;
+	margin-top: -10px;
+}
+.logo-img {
+	float: left;
+	margin: 5px;
+	width: 70px;
+}
 .logo{
-	float:left;
+	float: left;
+	margin: 5px;
+	margin-left: -5px;
 }
 .logo h1 a{
 	color:#FFF;
@@ -137,7 +148,7 @@ body{
 .cssmenu{
 	position: absolute;
     right: 0;
-    bottom: 10px;
+	margin-top: 5px;
 }
 .menu {
     display: none;
@@ -694,7 +705,11 @@ img.logo-footer {
 	}
 }
 @media (max-width:500px){
-    .logo{
+    .logo-img {
+		float: none;
+		margin:0 auto;
+	}
+	.logo{
 		float:none;
 		margin:0 auto;
 	}
