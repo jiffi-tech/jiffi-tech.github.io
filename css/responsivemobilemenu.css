@@ -9,7 +9,7 @@
 	margin:0 auto !important;
 	text-align: center;
 	line-height:19px !important;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgb(250, 250, 250);
 }
 
 .rmm * {
@@ -57,6 +57,8 @@
 	cursor:pointer;
 }
 .rmm .rmm-toggled ul {
+	background-color: #AAAAAA;
+	border-radius: 10px;
 	display:none;
 	margin:0px !important;
 	padding:0px !important;
@@ -65,7 +67,9 @@
 	display:block;
 	margin:0 auto !important;
 }
-
+.rmm .rmm-toggled ul li:hover {
+	background-color: grey;
+}
 
 
 
@@ -79,7 +83,7 @@
 	color:#FFFFFF;
 }
 .rmm.minimal a:hover {
-	opacity:0.7;
+	opacity:0.8;
 }
 .rmm.minimal .rmm-main-list li a {
 	display:inline-block;
@@ -105,6 +109,7 @@
 	color:#33333;
 }
 .rmm.minimal .rmm-button {
+	background-color: #AAAAAA;
 	display:block;
 	position:absolute;
 	right:9px;
