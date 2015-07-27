@@ -26,6 +26,7 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
     <script type="text/javascript" src="js/responsivemobilemenu.js"></script>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/contact.css" type="text/css"/>
 </head>
 <body>
     <div class="rmm minimal">
@@ -84,7 +85,29 @@
 		 </div> 
 	</div>
 	<!-- End Main -->
-	   
+	<div class="contact">
+		<p class="form">Contact Us</p>
+		<form method="post" action="//formspree.io/cs@gojiffi.com">
+		<!--change-->
+			<div class="row 50%">
+				<div class="6u"><input type="text" name="name" placeholder="Name *" /></div>
+				<div class="6u"><input type="email" name="_replyto" placeholder="Email *" /></div>
+			</div>
+			<input type="hidden" name="_cc" value="abhijith@asesa.co" />
+			<input type="hidden" name="_subject" value="Jiffi Query!" />
+			<input type="hidden" name="_next" value="//gojiffi.com/" />
+			<div class="row 50%">
+				<div class="12u"><textarea name="message" placeholder="Message *" rows="6"></textarea></div>
+			</div>
+			<div class="row" style="padding-top: 10px;">
+				<div class="12u" style="padding-left: 2em;">
+					<ul class="actions" style="margin-bottom: 0;">
+						<li><input type="submit" value="Send" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</div>
 		<!-- Footer -->
         <div class="footer" id="section-5">
 			<div class="wrap">
